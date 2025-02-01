@@ -39,16 +39,22 @@ Use Linear Programming (LP) and solve the optimization problem using PuLP (Pytho
 **Visualizations**:
 1️⃣ Feasible Region Plot
 The feasible region is the shaded area in the graph below, representing all possible values of 𝑥 and y that satisfy the constraints.
+
 The blue line represents 2x+y≤1000
+
 The orange line represents  3𝑥+2𝑦≤600
+
 The shaded region is the feasible area where both constraints hold.
 
 2️⃣ Optimal Production Plan
 The optimal solution suggests:
 
 Produce 300 units of Product A
+
 Produce 200 units of Product B
 
 Product A (Orange Bar): 300 units
+
 Product B (Blue Bar): 200 units
+
 These values maximize profit while adhering to constraints.
