@@ -15,31 +15,34 @@
 **Problem Statement**:
 A manufacturing company produces Product A and Product B and wants to maximize profit while considering resource constraints and labor hours.
 
-Decision Variables:
+**Decision Variables**:
 x = Number of units of Product A
+
 y = Number of units of Product B
 
-Objective Function (Maximize Profit):
+**Objective Function (Maximize Profit)**:
 Maximize 
      𝑍=𝑝𝐴⋅𝑥+𝑝𝐵⋅𝑦
   Where:
 𝑝𝐴= Profit per unit of Product A
+
 𝑝𝐵= Profit per unit of Product B
 
-Constraints:
+**Constraints**:
 Resource Constraint: 2x+y≤1000
 Labor Hour Constraint: 3x+2y≤600
 Non-negativity Constraints: x,y≥0
 
-Solution Approach
+**Solution Approach**
 Use Linear Programming (LP) and solve the optimization problem using PuLP (Python LP solver). The solver provides an optimal production plan that maximizes profit while satisfying constraints.
 
-Visualizations
+**Visualizations**:
 1️⃣ Feasible Region Plot
 The feasible region is the shaded area in the graph below, representing all possible values of 𝑥 and y that satisfy the constraints.
 The blue line represents 2x+y≤1000
 The orange line represents  3𝑥+2𝑦≤600
 The shaded region is the feasible area where both constraints hold.
+
 2️⃣ Optimal Production Plan
 The optimal solution suggests:
 
